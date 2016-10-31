@@ -4,13 +4,15 @@ Persian Literation v1.0
 
 Persian Literation, is a class written in php to convert Finglish texts to Persian.
 
-##Usage
+## Usage
 
+```php
 	$converter = new ConvertFinglishToFarsi();
 	
-	$converter.Convert('in yek matn e finglish ast'); // این یک متنِ فینگلیش است	
+	$converter->Convert('in yek matn e finglish ast'); // این یک متنِ فینگلیش است	
+```
 
-##Author
+## Author
 
 DogTag
 Copyright (c) 2012 Masih Yeganeh, http://www.dogtag.ir/
